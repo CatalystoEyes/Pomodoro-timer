@@ -77,7 +77,7 @@ export default function Setting() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <DialogPanel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-black p-6 text-left align-middle shadow-xl transition-all">
+                <DialogPanel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-dark border-stone-600 border-2 p-6 text-left align-middle shadow-xl transition-all">
                   <div className="flex justify-between items-center mb-8">
                     <DialogTitle
                       as="h3"

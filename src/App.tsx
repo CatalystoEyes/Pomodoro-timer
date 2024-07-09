@@ -17,13 +17,13 @@ function PomodoroTimer({ expiryTimestamp }: any) {
     <div className="h-screen flex flex-col bg-[url('./assets/garden.png')] text-white bg-cover bg-center">
       <Header />
       <div className="flex-grow flex flex-col items-center justify-center">
-        <h1 className="text-5xl">Pomodoro timer</h1>
+        <h1 className="text-5xl select-none cursor-default">Pomodoro timer</h1>
         <div className="flex flex-row text-3xl mt-2 select-none">
           <WorkButton />
           <EditButton />
         </div>
 
-        <h1 className="text-6xl">
+        <h1 className="text-6xl select-none cursor-default">
           <span>{minutes}</span>:<span>{seconds}</span>
         </h1>
         <div className="flex select-none">

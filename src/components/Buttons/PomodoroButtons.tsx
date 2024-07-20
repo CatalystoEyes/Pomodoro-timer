@@ -9,22 +9,17 @@ export const WorkButton = () => {
   );
 };
 
-export const EditButton = () => {
+export const RestButton = () => {
   return (
-    <button className="transition-all hover:scale-105 m-2 py-1 px-2 border-2 border-white rounded-3xl w-30.5 flex items-center">
-      <img src="/edit.svg" alt="" className="ml-1 mr-1 w-8" />
-      Edit
-    </button>
+    <div>
+      <button className="transition-all hover:scale-105 m-2 py-1 px-2 border-2 border-white rounded-3xl w-30.5 flex items-center">
+        <img src="/edit.svg" alt="" className="ml-1 mr-1 w-8" />
+        Rest
+      </button>
+    </div>
   );
 };
 
-export const RepeatButton = () => {
-  return <div></div>;
-};
-
-export const StartButton = () => {
-  return <div></div>;
-};
 
 export const SettingsButton = () => {
   return (

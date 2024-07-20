@@ -6,7 +6,6 @@ import {
   Transition,
 } from "@headlessui/react";
 import { Fragment, useState } from "react";
-import ThemeToggler from "./Buttons/ThemeToggler";
 import Compobox from "./Compobox";
 import { PauseMinutesInput, WorkMinutesInput } from "./Forms/MinutesInput";
 
@@ -72,7 +71,6 @@ export default function Setting() {
                     <PauseMinutesInput />
                   </div>
                   <Compobox />
-                  <ThemeToggler />
                   <div className="mt-9 flex justify-between	select-none">
                     <button className="order-first border-2 rounded-xl py-1 px-3 border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition-all">
                       Reset all

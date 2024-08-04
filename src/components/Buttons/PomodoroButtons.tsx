@@ -1,4 +1,4 @@
-import Setting from "../Settings";
+import Setting from "../Settings/Settings";
 
 export const WorkButton = () => {
   return (
@@ -19,7 +19,6 @@ export const RestButton = () => {
     </div>
   );
 };
-
 
 export const SettingsButton = () => {
   return (

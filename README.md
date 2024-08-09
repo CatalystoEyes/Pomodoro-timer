@@ -1,53 +1,35 @@
-# GoPassword
+# Pomodoro-timer
 
-Welcome to the GoPassword application! This service, built with Go and Vue, generates random passwords using bcrypt to enhance security.
-
-## Overview
-
-GoPassword provides a simple interface to create strong, random passwords that are hashed with bcrypt. This ensures that your passwords are not only unique but also securely stored.
-
-## Features
-
-- Generates random passwords of customizable length
-- Passwords are hashed using bcrypt
-- Simple and intuitive user interface built with Vue.js
+Welcome to the Pomodoro Timer App! This cross-platform desktop application is built using Tauri, React, and Redux to help you manage your time using the Pomodoro Technique.
 
 ## Installation
 
-Follow the steps below to set up GoPassword on your local machine.
+Follow these steps to install and run the application on your computer:
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Before you begin, ensure you have the following tools installed:
 
-- [Go](https://golang.org/dl/) (version 1.16 or higher)
 - [Node.js](https://nodejs.org/) (recommended version 14 or higher)
-- [Vue CLI](https://cli.vuejs.org/)
+- [Rust](https://www.rust-lang.org/) (including `cargo`)
+- [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites)
 
 ### Steps to Install
 
 1. **Clone the Repository**
 
-   Open your terminal and run:
+   Open your terminal and run the following command:
 
    ```bash
-   git clone https://github.com/CatalystoEyes/GoPassword.git
+   git clone https://github.com/CatalystoEyes/pomodoro-timer.git
    ```
 
-2. **Navigate to the Project Directory:**
-   `cd GoPassword`
-3. **Build the Docker Image:**
+   ```cd pomodoro-timer```
+   
+3. **Install dependencies**
+   ```npm i```
 
-```bash
-  docker build -t GoPassword .
-```
-
-4. **Run the Docker Container:**
-
-```bash
-docker run -p 8080:8080 GoPassword
-```
-
-### Finish!
-
-Now you can access the GoPassword application at http://localhost:8080 in your web browser!
+4. Run programm
+   ```bash
+   npm run tauri dev
+   ```

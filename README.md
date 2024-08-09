@@ -21,10 +21,10 @@ Before you begin, ensure you have the following tools installed:
    Open your terminal and run the following command:
 
    ```bash
-   git clone https://github.com/CatalystoEyes/pomodoro-timer.git
+   git clone https://github.com/CatalystoEyes/Pomodoro-timer.git
    ```
 
-   ```cd pomodoro-timer```
+   ```cd Pomodoro-timer```
    
 3. **Install dependencies**
    ```npm i```

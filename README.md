@@ -24,12 +24,12 @@ Before you begin, ensure you have the following tools installed:
    git clone https://github.com/CatalystoEyes/pomodoro-timer.git
    ```
 
-2. **Install dependencies**
    ```cd pomodoro-timer```
-
+   
+3. **Install dependencies**
    ```npm i```
 
-3. Run programm
+4. Run programm
    ```bash
    npm run tauri dev
    ```
